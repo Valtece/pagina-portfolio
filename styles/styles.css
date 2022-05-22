@@ -102,9 +102,7 @@ header nav ul li.active {
 .divtitulo {
 	width: 60%;
 	height: 45%;
-	background-color: #e4e4e4;
 	border-radius: 8px;
-	box-shadow: 1px 1px 5px #acacb3;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -112,21 +110,22 @@ header nav ul li.active {
 
 h1 {
 	font-size: 32px;
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Josefin Sans', sans-serif;
 	margin-left: 15px;
-	color: rgb(34, 34, 34);
+	color: #2098dd;
 	font-weight: bolder;
     
 }
 
 p {
-	font-size: 31px;
-	font-family: 'Libre Baskerville', serif;
+	font-size: 24px;
+	font-family: 'Josefin Sans', sans-serif;
 	color: #2098dd;
 	margin-left: 15px;
-	font-weight: bolder;
+	font-weight: normal;
     
 }
+
 
 .img-container {
 	border-radius: 6px;
@@ -381,14 +380,18 @@ main {
 }
 
 .portfolio1 p{
-	font-size: 13px;
+	font-size: 12px;
 	text-align: justify;
 	text-align: center;
 	color: #2098DD;
 	margin: 0px;
 	margin-top: 15px;
 	font-family: 'Oxygen', sans-serif;
-	
+}
+
+.portfolio1 a{
+	color: #2098DD;
+	text-decoration: none;
 }
 
 .portfolio1 img {
