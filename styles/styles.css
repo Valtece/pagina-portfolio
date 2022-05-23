@@ -307,6 +307,10 @@ main {
 	font-weight: normal;
 }
 
+.quadrado3 img {
+	width: 40%;
+}
+
 
 @media (max-width: 650px){
 	.quadrado3 {
