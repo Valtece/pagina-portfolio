@@ -1,1 +1,113 @@
+body {
+	background-color: #f8f8f8;
+	width: 100%;
+	height: 100vh;
+}
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 18px;
+}
+
+#full-header {
+	width: 100%;
+	background-color: #7510F7;
+}
+
+header {
+	display: flex;
+	margin: 0px auto;
+}
+
+header a.logo {
+	padding-top: 0px;
+	display: flex;
+}
+
+header nav {
+	display: inline-flex;
+	align-items: center;
+	margin-left: auto;
+	justify-content: center;
+}
+
+header nav ul {
+	list-style: none;
+	display: inline-flex;
+	background-color: #7510F7;
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+}
+
+header nav ul li {
+	padding: 12px;
+	position: relative;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 4px;
+	padding-right: 10px;
+	
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+header nav ul li.menu-dropdown ul {
+	display: none;
+}
+
+header nav ul li:hover{
+	background-color: #6c17db;
+}
+
+header nav ul li.active {
+	background-color: #6c17db;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.div-titulo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.div-titulo h1 {
+	font-size: 58px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: bold;
+	color: #2F2F2F;
+	margin: 10px;
+	text-align: center;
+}
+
+.div-titulo h2 {
+	font-size: 25px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 300;
+	color: #2F2F2F;
+	margin: 10px;
+	text-align: center;
+}
+
+@media (max-width: 560px){
+	header nav {
+		display: none;
+	}
+}
