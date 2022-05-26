@@ -123,7 +123,7 @@ header nav ul li.active {
     animation-fill-mode: none;
     animation-play-state: running;
     animation-name: blink;
-    color: #6610f2;
+    color: #2F2F2F;
 }
 
 @media (max-width: 560px){
