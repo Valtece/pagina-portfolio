@@ -107,37 +107,10 @@ header nav ul li.active {
 	color: #2F2F2F;
 	margin: 10px;
 	text-align: center;
-	position: relative;
-}
-
-.div-titulo span::after {
-	content: "";
-	border-left: 1px solid #2F2F2F;
-	left: 0px;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	color: #2F2F2F;
-	animation: typing 3.0s steps(36) both;
-	background-color: #f8f8f8;
-	margin-right: 0px;
 }
 
 .div-titulo span {
 	position: relative;
-}
-
-@keyframes typing{
-	100%{
-		left: 100%;
-		margin: 0px -35px 0px 10px;
-	}
-}
-
-@media (max-width: 560px){
-	header nav {
-		display: none;
-	}
 }
 
 .eletronicos {
