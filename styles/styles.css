@@ -76,9 +76,10 @@ header nav ul li.active {
 	width: 100%;
 	height: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-direction: column;
+	padding: 20px;
 }
 
 .div-titulo {
@@ -86,6 +87,7 @@ header nav ul li.active {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin: 10px;
 }
 
 .div-titulo h1 {
@@ -110,4 +112,9 @@ header nav ul li.active {
 	header nav {
 		display: none;
 	}
+}
+
+.eletronicos {
+	display: flex;
+	margin: 20px;
 }
