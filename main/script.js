@@ -1,9 +1,13 @@
-/*
-window.sr = ScrollReveal({ reset: true });
+const saida = document.querySelector(".div-titulo span");
 
-sr.reveal('.quadrado3', { duration: 4000 });
+function digitacao(texto, contador) {
+  if (contador < texto.length) {
+    setTimeout(() => {
+      saida.textContent += texto.charAt(contador);
+      contador++;
+      digitacao(texto, contador);
+    }, 89);
+  }
+}
 
-sr.reveal('.quadrado4', { duration: 4000 });
-
-sr.reveal('.container4', { duration: 4000 });
-*/
+digitacao("Crio seu site simples e moderno.", 0);
