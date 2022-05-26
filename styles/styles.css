@@ -12,6 +12,7 @@ body {
 	font-size: 18px;
 }
 
+
 #full-header {
 	width: 100%;
 	background-color: #7510F7;
@@ -87,6 +88,7 @@ header nav ul li.active {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	padding: 10px;
 }
 
 .div-titulo h1 {
@@ -98,13 +100,38 @@ header nav ul li.active {
 	text-align: center;
 }
 
-.div-titulo h2 {
+.div-titulo span {
 	font-size: 25px;
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: 300;
 	color: #2F2F2F;
 	margin: 10px;
 	text-align: center;
+	position: relative;
+}
+
+.div-titulo span::after {
+	content: "";
+	border-left: 1px solid #2F2F2F;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: #2F2F2F;
+	animation: typing 3.0s steps(36) both;
+	background-color: #f8f8f8;
+	margin-right: 0px;
+}
+
+.div-titulo span {
+	position: relative;
+}
+
+@keyframes typing{
+	100%{
+		left: 100%;
+		margin: 0px -35px 0px 10px;
+	}
 }
 
 @media (max-width: 560px){
