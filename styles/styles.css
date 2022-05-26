@@ -1,7 +1,5 @@
 body {
 	background-color: #f8f8f8;
-	width: 100%;
-	height: 100vh;
 }
 
 * {
@@ -74,8 +72,6 @@ header nav ul li.active {
 }
 
 .container {
-	width: 100%;
-	height: 100%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -134,5 +130,51 @@ header nav ul li.active {
 
 .eletronicos {
 	display: flex;
+	margin-top: 20px;
+}
+
+.main {
+	background-color: #7510F7;
+}
+
+.container-sobre {
+	width: 100%;
+	padding: 40px;
+}
+
+.sobre {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.sobre h1 {
+	text-align: center;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 28px;
 	margin: 20px;
+	color: #ffffff;
+	font-weight: 900px;
+}
+
+.sobre p {
+	text-align: center;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+
+}
+
+@media (max-width: 1000px){
+	.sobre {
+		margin-right: 150px;
+		margin-left: 150px;
+	}
+}
+
+@media (max-width: 650px){
+	.sobre {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
 }
