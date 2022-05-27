@@ -13,7 +13,7 @@ body {
 
 #full-header {
 	width: 100%;
-	background-color: #7510F7;
+	background-color: #f8f8f8;
 }
 
 header {
@@ -36,7 +36,7 @@ header nav {
 header nav ul {
 	list-style: none;
 	display: inline-flex;
-	background-color: #7510F7;
+	background-color: #f8f8f8;
 	border-radius: 4px;
 	justify-content: center;
 	align-items: center;
@@ -55,7 +55,7 @@ header nav ul li {
 
 header nav ul li a {
 	text-decoration: none;
-	color: #ffffff;
+	color: #7510F7;
 	font-size: 18px;
 }
 
@@ -64,11 +64,11 @@ header nav ul li.menu-dropdown ul {
 }
 
 header nav ul li:hover{
-	background-color: #6c17db;
+	background-color: #e9e9e9;
 }
 
 header nav ul li.active {
-	background-color: #6c17db;
+	background-color: #e9e9e9;
 }
 
 .container {
@@ -190,12 +190,15 @@ header nav ul li.active {
 }
 
 .container-habilidades-interno {
-	max-width: 1100px;
+	max-width: 1200px;
 	padding: 10px;
 	margin: auto;
 	border-radius: 8px;
-	box-shadow: 1px 1px 7px rgb(43, 43, 43);
+	box-shadow: 0px 0px 2px rgb(80, 80, 80);
 	background-color: #ffffff;
+	border-width: 1px;
+  	border-style: solid;
+  	border-color: #b3b3b3;
 }
 
 .titulo-habilidades {
@@ -221,13 +224,15 @@ header nav ul li.active {
 .coluna {
 	width: 33%;
 	padding: 10px;
+	box-shadow: 0px 0px 1px #b983ff;
 }
 
 .coluna p {
 	font-size: 22px;
-	color: #000000;
+	color: #7510F7;
 	text-align: center;
 	font-weight: normal;
+	margin: 15px;
 }
 
 .container-circulo {
@@ -239,7 +244,32 @@ header nav ul li.active {
 .circulo {
 	width: 80px;
 	height: 80px;
-	background-color: #7510F7;
+	background-color: #ffffff;
 	border-radius: 50px;
-	margin: 20px;
+	margin: 30px;
+	border-width: 1px;
+  	border-style: solid;
+  	border-color: #7510F7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 600px){
+	.coluna {
+		width: 100%;
+	}
+
+	.container-coluna-habilidades {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.titulo-habilidades h2 {
+		margin: 20px;
+	}
+
+	.container-habilidades-interno {
+		padding: 0px;
+	}
 }
