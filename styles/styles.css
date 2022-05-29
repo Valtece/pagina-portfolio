@@ -389,11 +389,13 @@ header nav ul li.active {
 }
 
 .copyright {
-	margin-left: 10px;
+	margin: auto;
+	padding-top: 10px;
 }
 
 .copyright p {
 	color: #caacf1;
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 16px;
+	text-align: center;
 }
