@@ -107,7 +107,7 @@ header nav ul li.active {
 
 .div-titulo span::after {
 	content: "|";
-    margin-left: 8px;
+    margin-left: 4px;
     opacity: 1;
     -webkit-animation: blink 1s infinite;
     animation: blink 1s infinite;
@@ -316,8 +316,14 @@ header nav ul li.active {
 
 .portfolio p {
 	align-items: center;
-	color: #761fe7;
+	color: #7510F7;
 	font-family: 'Red Hat Display', sans-serif;
+}
+
+.portfolio:hover,
+.portfolio:focus {
+	background: #761fe78e;
+
 }
 
 @media (max-width: 700px){
@@ -332,4 +338,52 @@ header nav ul li.active {
 		justify-content: center;
 		align-items: center;
 	}
+}
+
+.footer {
+	padding: 10px;
+	background-color: #7510F7;
+}
+
+.footer-principal {
+	padding: 20px;
+}
+
+.div-logo-footer{
+	padding: 0px;
+	margin: auto;
+	max-width: 180px;
+	margin-bottom: 40px;
+}
+
+.frase {
+	padding: 10px;
+	max-width: 400px;
+	margin: auto;
+	text-align: center;
+}
+
+.frase p {
+	color: #caacf1;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.coluna-icons {
+	padding: 10px;
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.circulo-icon {
+	width: 38px;
+	height: 38px;
+	border-radius: 100%;
+	background-color: #7510F7;
+	border-width: 1px;
+  	border-style: solid;
+  	border-color: #ffffff;
+	margin: 10px;
 }
