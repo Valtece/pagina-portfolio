@@ -282,6 +282,7 @@ header nav ul li.active {
 
 .titulo-portfolio {
 	padding: 10px;
+	margin-top: 60px;
 }
 
 .titulo-portfolio h2 {
@@ -298,7 +299,7 @@ header nav ul li.active {
 	width: 100%;
 	justify-content: center;
 	padding: 10px;
-	margin-top: 20px;
+	margin-top: 0px;
 	
 }
 
