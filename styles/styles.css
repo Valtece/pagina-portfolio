@@ -144,6 +144,7 @@ header nav ul li.active {
   @media (max-width: 560px) {
 	.menu-button-container {
 	  display: flex;
+	  margin-right: 10px;
 	}
 	.menu {
 	  position: absolute;
