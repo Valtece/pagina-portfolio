@@ -19,7 +19,13 @@ body {
 header {
 	display: flex;
 	margin: 0px auto;
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
 }
+
 
 header a.logo {
 	padding-top: 0px;
