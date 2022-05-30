@@ -20,16 +20,17 @@ header {
 	display: flex;
 	margin: 0px auto;
 	position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f8f8f8;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #f8f8f8;
 }
 
 
 header a.logo {
 	padding-top: 0px;
 	display: flex;
+	margin-left: 5px;
 }
 
 header nav {
@@ -47,6 +48,7 @@ header nav ul {
 	justify-content: center;
 	align-items: center;
 	height: 70%;
+
 }
 
 header nav ul li {
@@ -149,7 +151,7 @@ header nav ul li.active {
 	.menu {
 	  position: absolute;
 	  top: 0;
-	  margin-top: 50px;
+	  margin-top: 40px;
 	  left: 0;
 	  flex-direction: column;
 	  width: 100%;
@@ -198,6 +200,7 @@ header nav ul li.active {
 	align-items: center;
 	flex-direction: column;
 	padding: 10px;
+	margin-top: 10px;
 }
 
 .div-titulo h1 {
@@ -499,6 +502,9 @@ header nav ul li.active {
   	border-style: solid;
   	border-color: #caacf1;
 	margin: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .copyright {
@@ -511,4 +517,8 @@ header nav ul li.active {
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 16px;
 	text-align: center;
+}
+
+.coluna-icons a .circulo-icon:hover{
+	background-color: #f8f8f8;
 }
