@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: #f8f8f8;
 }
@@ -86,6 +90,10 @@ header nav ul li.active {
 	margin: 0;
 	padding: 0;
 	display: none;
+  }
+
+  .menu li a {
+	  color: #f8f8f8
   }
   
   .menu > li {
@@ -249,7 +257,7 @@ header nav ul li.active {
 	margin-top: 20px;
 }
 
-.container-sobre {
+#container-sobre {
 	width: 100%;
 	padding: 40px;
 	background-color: #7510F7;
@@ -391,7 +399,7 @@ header nav ul li.active {
 	}
 }
 
-.container-portfolio {
+#container-portfolio {
 	padding: 10px;
 	margin-top: 0px;
 }
@@ -438,7 +446,7 @@ header nav ul li.active {
 
 .portfolio:hover,
 .portfolio:focus {
-	background: #761fe78e;
+	background: #ffffff8e;
 
 }
 
