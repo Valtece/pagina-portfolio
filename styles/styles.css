@@ -237,16 +237,8 @@ header nav ul li:hover{
 		display: none;
 	}
 	.div-titulo h1 {
-		font-size: 54px;
+		font-size: 56px;
 	}
-	.div-titulo span {
-		font-size: 24px;
-	}
-
-	.div-titulo {
-		margin-top: 20px;
-	}
-	
 }
 
 
