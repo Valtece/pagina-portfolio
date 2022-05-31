@@ -65,10 +65,9 @@ header nav ul li {
 	
 }
 
-header nav ul li a {
+header nav ul a {
 	text-decoration: none;
 	color: #7510F7;
-	font-size: 18px;
 }
 
 header nav ul li.menu-dropdown ul {
@@ -79,9 +78,6 @@ header nav ul li:hover{
 	background-color: #e9e9e9;
 }
 
-header nav ul li.active {
-	background-color: #e9e9e9;
-}
 
 .menu {
 	display: flex;
@@ -156,17 +152,7 @@ header nav ul li.active {
 	  display: flex;
 	  margin-right: 10px;
 	}
-	.menu {
-	  position: absolute;
-	  top: 0;
-	  margin-top: 40px;
-	  left: 0;
-	  flex-direction: column;
-	  width: 100%;
-	  justify-content: center;
-	  align-items: center;
-	  display: block;
-	}
+	
 	#menu-toggle ~ .menu li {
 	  height: 0;
 	  margin: 0;
@@ -250,11 +236,28 @@ header nav ul li.active {
 	header nav ul {
 		display: none;
 	}
+	.div-titulo h1 {
+		font-size: 54px;
+	}
+	.div-titulo span {
+		font-size: 24px;
+	}
+
+	.div-titulo {
+		margin-top: 20px;
+	}
+	
 }
+
+
 
 .eletronicos {
 	display: flex;
 	margin-top: 20px;
+}
+
+.eletronicos .divImgTop img {
+	margin-bottom: -5px;
 }
 
 #container-sobre {
@@ -499,6 +502,10 @@ header nav ul li.active {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+}
+
+.coluna-icons a {
+	text-decoration: none;
 }
 
 .circulo-icon {
