@@ -239,17 +239,19 @@ header nav ul li:hover{
 	content: "|";
     margin-left: 4px;
     opacity: 1;
-    -webkit-animation: blink 1s infinite;
-    animation: blink 1s infinite;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: blink;
-    color: #2F2F2F;
+	animation: animate 1.7s linear infinite;
+}
+
+@keyframes animate {
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.8;
+	}
+	100%{
+		opacity: 0;
+	}
 }
 
 @media (max-width: 560px){
