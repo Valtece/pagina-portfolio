@@ -446,8 +446,8 @@ header nav ul li:hover{
 }
 
 .portfolio {
-	width: 30%;
-	padding: 65px;
+	width: 27%;
+	padding: 60px;
 	box-shadow: 0px 0px 1px #761fe7;
 	background-color: rgb(241, 243, 243);
 	display: flex;
@@ -462,13 +462,17 @@ header nav ul li:hover{
 	font-family: 'Red Hat Display', sans-serif;
 }
 
+.portfolio a img {
+	width: 100%;
+}
+
 .portfolio:hover,
 .portfolio:focus {
 	background: #ffffff8e;
 
 }
 
-@media (max-width: 700px){
+@media (max-width: 840px){
 	.portfolio {
 		width: 100%;
 		margin: 20px;
