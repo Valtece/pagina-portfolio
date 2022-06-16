@@ -456,6 +456,14 @@ header nav ul li:hover{
 	margin: 10px;
 }
 
+.portfolio:last-child{
+	padding: 85px;
+}
+
+.portfolio:nth-child(2) {
+	padding: 85px;
+}
+
 .portfolio p {
 	align-items: center;
 	color: #7510F7;
