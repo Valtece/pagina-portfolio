@@ -320,7 +320,7 @@ header nav ul li:hover{
 		margin-right: 0px;
 		margin-left: 0px;
 	}
-	.container-sobre {
+	#container-sobre {
 		padding: 10px;
 	}
 }
@@ -456,13 +456,6 @@ header nav ul li:hover{
 	margin: 10px;
 }
 
-.portfolio:last-child{
-	padding: 85px;
-}
-
-.portfolio:nth-child(2) {
-	padding: 85px;
-}
 
 .portfolio p {
 	align-items: center;
@@ -491,6 +484,14 @@ header nav ul li:hover{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.portfolio:last-child{
+		padding: 85px;
+	}
+
+	.portfolio:nth-child(2) {
+		padding: 85px;
 	}
 }
 
