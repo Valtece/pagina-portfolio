@@ -463,6 +463,8 @@ header nav ul li:hover{
 	align-items: center;
 	color: #7510F7;
 	font-family: 'Red Hat Display', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
 }
 
 .portfolio a img {
