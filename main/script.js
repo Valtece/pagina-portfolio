@@ -10,7 +10,7 @@ function digitacao(texto, contador) {
   }
 }
 
-digitacao("Crio seu site simples e moderno.", 0);
+digitacao("Crio site e aplicativo para o seu negócio.", 0);
 
 $('.nav a[href^="#"]').on('click', function(e) {
   e.preventDefault();
