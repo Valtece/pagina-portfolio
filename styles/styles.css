@@ -450,13 +450,10 @@ header nav ul li:hover{
 		align-items: center;
 	}
 
-	.portfolio:last-child{
+	.portfolio{
 		padding: 85px;
 	}
 
-	.portfolio:nth-child(2) {
-		padding: 85px;
-	}
 }
 
 .footer {
