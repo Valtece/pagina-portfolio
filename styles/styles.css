@@ -245,6 +245,10 @@ header nav ul li:hover{
 	animation: animate 1.7s linear infinite;
 }
 
+.div-img-principal {
+	margin-top: 20px;
+}
+
 @keyframes animate {
 	0%{
 		opacity: 0;
@@ -354,11 +358,67 @@ header nav ul li:hover{
 
 .coluna {
 	width: 33%;
-	padding: 10px;
+	padding: 50px 36px; 
 	box-shadow: 0px 0px 1px #b983ff;
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;
 }
+
+.mobile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.front {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.coluna h3{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 23px;
+	font-weight: 900;
+	color: #2F2F2F;
+	padding: 30px 0px;
+}
+
+.descricao {
+	font-size: 18px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+
+.ferramentas {
+	padding: 30px 0px 5px 0px;
+	color: #7510F7;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+
+figure img {
+	margin: auto;
+}
+ 
+ul {
+	list-style: none;
+}
+
+
 
 @media (max-width: 600px){
 	.coluna {
