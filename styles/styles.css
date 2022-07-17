@@ -28,6 +28,7 @@ header {
 	left: 0;
 	width: 100%;
 	background-color: #f8f8f8;
+	z-index: 10;
 }
 
 
@@ -50,8 +51,6 @@ header nav ul {
 	background-color: #f8f8f8;
 	border-radius: 4px;
 	justify-content: center;
-	align-items: center;
-	height: 70%;
 
 }
 
@@ -160,6 +159,10 @@ header nav ul li:hover{
   }
   
   @media (max-width: 560px) {
+	header nav ul {
+        display: none;
+    } 
+
 	.menu-button-container {
 	  display: flex;
 	  margin-right: 10px;
@@ -176,6 +179,18 @@ header nav ul li:hover{
 		align-items: center;
 		display: block;
 	  }
+
+	#menu-toggle:checked ~ .menu {
+		position: absolute;
+		top: 0;
+		margin-top: 50px;
+		left: 0;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		display: block;
+	}
 
 	#menu-toggle ~ .menu li {
 	  height: 0;
