@@ -126,7 +126,7 @@ header nav ul li:hover{
   .menu-button::before,
   .menu-button::after {
 	display: block;
-	background-color: #7510F7;
+	background-color: #212549;
 	position: absolute;
 	height: 4px;
 	width: 30px;
@@ -201,7 +201,7 @@ header nav ul li:hover{
 	  
 	}
 	#menu-toggle:checked ~ .menu li {
-	  border: 1px solid #a96ef7;
+	  border: 1px solid #3e4269;
 	  height: 2.5em;
 	  padding: 0.5em;
 	  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
