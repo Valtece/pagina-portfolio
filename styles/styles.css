@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
 html {
 	scroll-behavior: smooth;
 	background-color: #f8f8f8;
@@ -60,8 +62,8 @@ header nav ul li {
 	cursor: pointer;
 	transition: 0.3s;
 	padding-right: 10px;
-	font-weight: bold;
-	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 600;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
 	
 }
@@ -237,16 +239,17 @@ header nav ul li:hover{
 
 .div-titulo h1 {
 	font-size: 58px;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
 	color: #2F2F2F;
 	margin: 10px;
 	text-align: center;
+	font-weight: 600;
 }
 
 .div-titulo span {
 	font-size: 25px;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	color: #2F2F2F;
 	margin: 10px;
@@ -311,19 +314,19 @@ header nav ul li:hover{
 
 .sobre h1 {
 	text-align: center;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 28px;
 	margin: 20px;
-	color: #ffffff;
-	font-weight: 900px;
+	color: rgb(247, 241, 241);
+	font-weight: 700px;
 }
 
 .sobre p {
 	text-align: center;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
-	font-weight: 500;
-	color: #ffffff;
+	font-weight: 200;
+	color: rgb(247, 241, 241);
 
 }
 
@@ -402,7 +405,7 @@ header nav ul li:hover{
 }
 
 .coluna h3{
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 23px;
 	font-weight: 900;
 	color: #444444;
@@ -411,17 +414,17 @@ header nav ul li:hover{
 
 .descricao {
 	font-size: 18px;
-	font-family: 'Red Hat Display', sans-serif;
-	font-weight: 500;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
 	text-align: center;
 }
 
 .ferramentas {
 	padding: 30px 0px 5px 0px;
 	color: #212549;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 19px;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 
@@ -470,10 +473,10 @@ ul {
 
 .titulo-portfolio h2 {
 	text-align: center;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 30px;
 	color: #212549;
-	font-weight: 900px;
+	font-weight: 100px;
 }
 
 .coluna-portfolio {
@@ -501,9 +504,9 @@ ul {
 .portfolio p {
 	align-items: center;
 	color: #212549;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
-	font-weight: bolder;
+	font-weight: 400;
 }
 
 .portfolio a img {
