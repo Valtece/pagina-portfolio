@@ -501,14 +501,15 @@ ul {
 }
 
 .portfolio {
-	width: 27%;
-	padding: 60px;
+	width: 320px;
+	height: 180px;
 	background-color: rgb(241, 243, 243);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 10px;
 	border: 1px solid #a7a9be;
+	border-radius: 4px;
 }
 
 
