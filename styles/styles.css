@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
 	scroll-behavior: smooth;
@@ -37,7 +37,7 @@ header {
 header a.logo {
 	padding-top: 0px;
 	display: flex;
-	margin-left: 5px;
+	margin-left: 20px;
 }
 
 header nav {
@@ -53,6 +53,7 @@ header nav ul {
 	background-color: #f8f8f8;
 	border-radius: 4px;
 	justify-content: center;
+	margin-right: 20px;
 
 }
 
@@ -62,9 +63,10 @@ header nav ul li {
 	cursor: pointer;
 	transition: 0.3s;
 	padding-right: 10px;
-	font-weight: 600;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px;
+	font-weight: 500;
+	font-family: 'Heebo', sans-serif;
+	font-size: 18px;
+	
 	
 }
 
@@ -78,7 +80,7 @@ header nav ul li.menu-dropdown ul {
 }
 
 header nav ul li:hover{
-	background-color: #e9e9e9;
+	background-color: #3b40661c;
 }
 
 
@@ -159,6 +161,10 @@ header nav ul li:hover{
   }
   
   @media (max-width: 560px) {
+	header a.logo {
+		margin-left: 0px;
+	}
+	
 	header nav ul {
         display: none;
     } 
@@ -239,19 +245,19 @@ header nav ul li:hover{
 
 .div-titulo h1 {
 	font-size: 58px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-weight: bold;
-	color: #2F2F2F;
+	color: #1f2238;
 	margin: 10px;
 	text-align: center;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .div-titulo span {
 	font-size: 25px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
-	color: #2F2F2F;
+	color: #010101;
 	margin: 10px;
 	text-align: center;
 }
@@ -283,6 +289,11 @@ header nav ul li:hover{
 	header nav ul {
 		display: none;
 	}
+
+	.div-titulo {
+		margin-top: 20px;
+	}
+
 	.div-titulo h1 {
 		font-size: 56px;
 	}
@@ -312,18 +323,18 @@ header nav ul li:hover{
 	padding-top: 80px;
 }
 
-.sobre h1 {
+.sobre h2 {
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-size: 28px;
 	margin: 20px;
 	color: rgb(247, 241, 241);
-	font-weight: 700px;
+	font-weight: 500px;
 }
 
 .sobre p {
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-size: 20px;
 	font-weight: 200;
 	color: rgb(247, 241, 241);
@@ -405,16 +416,16 @@ header nav ul li:hover{
 }
 
 .coluna h3{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-size: 23px;
 	font-weight: 900;
-	color: #444444;
+	color: #212549;
 	padding: 30px 0px;
 }
 
 .descricao {
 	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
 	text-align: center;
 }
@@ -422,7 +433,7 @@ header nav ul li:hover{
 .ferramentas {
 	padding: 30px 0px 5px 0px;
 	color: #212549;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-size: 19px;
 	font-weight: 400;
 }
@@ -444,7 +455,7 @@ ul {
 	}
 
 	.coluna h3{
-		color: #5a5a5a;
+		color: #212549;
 	}
 
 	.container-coluna-habilidades {
@@ -473,7 +484,7 @@ ul {
 
 .titulo-portfolio h2 {
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-size: 30px;
 	color: #212549;
 	font-weight: 100px;
@@ -504,7 +515,7 @@ ul {
 .portfolio p {
 	align-items: center;
 	color: #212549;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 }
@@ -515,7 +526,7 @@ ul {
 
 .portfolio:hover,
 .portfolio:focus {
-	background: #7410f711;
+	background: #ffffff;
 
 }
 
