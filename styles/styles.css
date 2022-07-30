@@ -388,7 +388,7 @@ header nav ul li:hover{
 .coluna {
 	width: 33%;
 	padding: 50px 36px; 
-	box-shadow: 0px 0px 1px #b983ff;
+	box-shadow: 0px 0px 1px #363c72;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -503,12 +503,12 @@ ul {
 .portfolio {
 	width: 27%;
 	padding: 60px;
-	box-shadow: 0px 0px 1px #212549;
 	background-color: rgb(241, 243, 243);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 10px;
+	border: 1px solid #a7a9be;
 }
 
 
@@ -520,13 +520,11 @@ ul {
 	font-weight: 400;
 }
 
-.portfolio a img {
-	width: 100%;
-}
 
 .portfolio:hover,
 .portfolio:focus {
 	background: #ffffff;
+	
 
 }
 
