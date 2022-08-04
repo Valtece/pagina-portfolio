@@ -501,38 +501,35 @@ ul {
 }
 
 .portfolio {
-	width: 320px;
-	height: 180px;
-	background-color: rgb(241, 243, 243);
+	width: 350px;
+	height: 200px;
+	background-color: #212549;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 10px;
 	border: 1px solid #a7a9be;
-	border-radius: 4px;
+	border-radius: 10px;
 }
 
 
 .portfolio p {
 	align-items: center;
-	color: #212549;
+	color: #ffffff;
 	font-family: 'Heebo', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 }
 
-.portfolio a {
-	text-decoration: none;
-	color: #212549;
-	font-family: 'Heebo', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
+.portfolio img {
+	background-size: cover;
+	border-radius: 10px;
 }
 
 
 .portfolio:hover,
 .portfolio:focus {
-	background: #ffffff;
+	background: #212549cc;
 	
 
 }
