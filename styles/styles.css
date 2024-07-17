@@ -556,6 +556,7 @@ ul {
 .footer {
 	padding: 10px;
 	background-color: #212549;
+	margin-top: 100px;
 }
 
 .footer-principal {
@@ -601,11 +602,15 @@ ul {
 	background-color: #212549;
 	border-width: 1px;
   	border-style: solid;
-  	border-color: #caacf1;
+  	border-color: #f8f8f8;
 	margin: 12px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.icons {
+	color: #c3c0d3;
 }
 
 .copyright {
